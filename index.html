@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Letter for the Future</title>
+<style>
+body{
+  margin:0;font-family:Georgia,serif;
+  background:#0f2027;color:white;
+}
+.container{
+  max-width:700px;margin:auto;padding:60px 40px;
+}
+button{
+  padding:14px 30px;border:none;
+  border-radius:30px;background:#ffc75f;
+  font-size:1rem;cursor:pointer;
+}
+.letter{
+  display:none;margin-top:30px;
+  line-height:1.9;font-style:italic;
+}
+.letter.show{display:block}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>A Letter for the Future</h1>
+<p>If we're together next year too...</p>
+
+<button onclick="openLetter()">Open the letter</button>
+
+<div class="letter">
+Hey... I know we are not perfect or anything like that... I know
+we make mistakes, I know we hurt each other. I know we feel like shit sometimes because of that...
+I know that you feel bad because of me or because I felt bad coz of you. I'm just saying...
+if we are together next year too... then we'll encounter countless fights, some even go as far as breaking up.
+But, remember why we stayed through all that, why we are doing all this and what we'll get after all this, 
+it's just that It'll be good if we stay together and remember our plans during this time...
+I know it'll be hard but let's stay and face it together... It's not You Vs Me or anything like that...
+Just remember that you're loved and we need to stay the next year too to make our plans a success.
+For Haider... we'll stay together next year too.
+<br><br>
+
+And if we’re not—  
+I hope you remember that you were loved sincerely.
+</div>
+
+<p style="margin-top:50px;opacity:.7">
+— From me.
+</p>
+</div>
+
+<script>
+function openLetter(){
+  document.querySelector('.letter').classList.add('show');
+}
+</script>
+
+</body>
+</html>
